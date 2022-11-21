@@ -1,5 +1,5 @@
-a {
-    color: #0000FF
+a.header {
+    color: #FFFFFF;
 }
 
 a.dir {
@@ -50,4 +50,15 @@ td.detailsColumn {
     padding-inline-start: 2em;
     text-align: end;
     white-space: nowrap;
+}
+
+div {
+    z-index: 1000;
+    width: 100%;
+    background-color: #5555FF;
+    color: #FFFFFF;
+    position: absolute;
+    top: 0px;
+    padding: 5px 0px 5px;
+    text-align: center;
 }
